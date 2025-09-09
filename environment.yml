@@ -1,0 +1,8 @@
+name: sparq-env
+dependencies:
+  - python=3.8
+  - pip
+  - openjdk=11
+  - pip:
+      - pyspark>=3.3.0
+      - delta-spark>=2.1.0
